@@ -9,8 +9,11 @@
 
 
         private static Practice Instancee =null;
+        //static: This keyword means that the variable belongs to the class itself, rather than to instances of the class. 
+        //There is only one copy of this variable shared by all instances of the class.
 
         public static Practice get_the_instance(){
+            //
 
             if(Instancee==null){
                 Instancee=new Practice();
@@ -32,3 +35,4 @@
         }
 
     }
+
