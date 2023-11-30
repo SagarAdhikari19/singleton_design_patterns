@@ -11,14 +11,14 @@ namespace SingletonDemo
     {
 
 
-        public static void Main(string[] args)
-        {
-                 Practice res =Practice.get_the_instance();
-                 res.To_print("hello world");
+        // public static void Main(string[] args)
+        // {
+        //          Practice res =Practice.get_the_instance();
+        //          res.To_print("hello world");
 
 
                 
-        }
+        // }
 
         }
     }
